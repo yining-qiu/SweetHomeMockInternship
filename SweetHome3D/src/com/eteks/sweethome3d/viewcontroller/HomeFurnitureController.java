@@ -595,7 +595,6 @@ public class HomeFurnitureController implements Controller {
    */
   public boolean isPropertyEditable(Property property) {
     switch (property) {
-      case DESCRIPTION :
       case PRICE :
         return false;
       case LIGHT_POWER :
@@ -874,7 +873,7 @@ public class HomeFurnitureController implements Controller {
   public Float getWidth() {
     return this.width;
   }
-  
+
   /**
    * Sets the edited depth.
    */
